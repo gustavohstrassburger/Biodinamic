@@ -26,15 +26,6 @@
 						</div>
 					</div>
 				</li>		
-				<li>
-					<div class="block">
-						<strong>Nutrição</strong>
-						<p>Acompanhamento nutricional completo e individualizado para quem está em busca de saúde, prevenção de doenças e qualidade de vida através do equilíbrio nutricional.</p>
-						<div class="saiba_mais">
-							<?php echo $this->Html->Link("Saiba mais »", array("controller"=>"servicos", "action"=>"nutricao")); ?>
-						</div>					
-					</div>
-				</li>	
 				<li class="last">
 					<div class="block">
 						<strong>Estética</strong>

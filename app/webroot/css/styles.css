@@ -89,6 +89,10 @@ body {
 
 }
 
+.left {
+	float: left;
+}
+
 /**
  * Grid container
  */
@@ -403,28 +407,51 @@ footer a {
 }
 
 #footer .links .title {
-
 	font-size: 25px;
 	text-transform: uppercase;
-
 }
 
 #footer .links .info {
-
 	margin-top:20px;
-
 }
 
-#footer .info a {
+#footer .links .info .contact label.telephone {
+	float: left;
+	margin-right: 5px;
+	font-weight: normal;
+}
 
+#footer .links .info .contact .whats {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+	background: url(../img/whatsapp_16.png) right no-repeat;
+}
+
+#footer .links .info .contact .email {
+	margin-top: 10px;
+}
+
+#footer .links .info .contact {
+	margin-top: 10px;
+}
+
+#footer .links .info .contact div.telephone {
+	float: left;
+}
+
+#footer .links .info .contact div.email {
+	float: none;
+	clear: both;
+}
+
+#footer a {
 	opacity:0.5;
-
 }
 
-#footer .info a:hover{
-
+#footer a:hover{
 	opacity: 1;
-
 }
 
 #footer .links .redes .fb-like-box {
@@ -609,9 +636,23 @@ footer a {
 
 }
 
-#contato .content .subtitle {
+#contato .content .telephone {
+	margin-bottom: 18px;
+	clear: both;
+	float: left;
+}
 
-	margin-top: 8px;
+#contato .content .whats {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-left: 10px;
+	background: url(../img/whatsapp.ico) right no-repeat;
+}
+
+#contato .content .subtitle {
+	clear: both;
+	margin-top: 18px;
 	margin-bottom: 0px;
 
 }

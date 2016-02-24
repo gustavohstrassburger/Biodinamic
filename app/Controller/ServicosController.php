@@ -44,10 +44,6 @@ class ServicosController extends AppController {
             
         }
         
-        public function nutricao(){
-            
-        }
-        
         public function acupuntura(){
             
             

@@ -74,9 +74,10 @@
 					
 					</div>
 						
-					<div class="text">
+					<div class="text telephone">
 										
-						Telefone: (51) 3066-6369
+						<div class="left">(51) 8421-6590 (Claro)</div><div class="whats"></div>
+						<div class="clear left">(51) 8129-5373 (Tim)</div><div class="whats"></div>
 						
 					</div>
 						

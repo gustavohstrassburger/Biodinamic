@@ -79,21 +79,9 @@
 									<li><?php echo $this->Html->Link("Pilates", array("controller"=>"servicos", "action"=>"pilates"));?></li>
 									<li><?php echo $this->Html->Link("Fisioterapia", array("controller"=>"servicos", "action"=>"fisioterapia"));?></li>
 									<li><?php echo $this->Html->Link("Avaliação computadorizada", array("controller"=>"servicos", "action"=>"avaliacao"));?></li>
-									<li><?php echo $this->Html->Link("Nutricão", array("controller"=>"servicos", "action"=>"nutricao"));?></li>
 									<li><?php echo $this->Html->Link("Acupuntura dry needling", array("controller"=>"servicos", "action"=>"acupuntura"));?></li>
 									<li><?php echo $this->Html->Link("Massoterapia", array("controller"=>"servicos", "action"=>"massoterapia"));?></li>
 									<li><?php echo $this->Html->Link("Estética", array("controller"=>"servicos", "action"=>"estetica"));?></li>
-									<?php
-										/*
-									<li class="dropdown-submenu">
-										
-										<?php echo $this->Html->Link("Pilates", array("controller"=>"espacos", "#"=>"pilates", "tabindex"=>"-1"));?>
-										<ul class="dropdown-menu">
-											<li><a href="#">3rd level</a></li>
-											<li><a href="#">3rd level</a></li>
-										</ul>
-									</li>
-										*/?>
 								</ul>								
 							</li>
 							
@@ -143,15 +131,17 @@
 							
 							<div class="info">
 							
-								<p>
+								<div class="address">
 									Av. Nações Unidas, 2456, Sala 102A. <br/>
 									Bairro Centro, Novo Hamburgo - RS.
-								</p>
+								</div>
 								
-								<p>
-									Telefone: (51) 3066-6369 <br/>
-									Email: <a href="mailto:contato@biodinamic.com.br">contato@biodinamic.com.br</a>
-								</p>
+								<div class="contact">
+									<label class="telephone">Telefone: </label>
+									<div class="telephone">(51) 8421-6590 (Claro)</div><div class="whats"></div><br/>
+									<div class="telephone">(51) 8129-5373 (Tim)</div><div class="whats"></div><br>
+									<div class="email">Email: <a href="mailto:contato@biodinamic.com.br">contato@biodinamic.com.br</a></div>
+								</div>
 								
 							</div>
 							
@@ -163,8 +153,8 @@
 							
 							<div class="info">
 							
-								<p>Segunda à Sexta-feira | 07h às 21h30<br>
-								Sábado | 08h às 12h00</p>								
+								<p>Segunda à Sexta-feira | 07h às 21h30</p>								
+
 							</div>
 						
 						</div>
