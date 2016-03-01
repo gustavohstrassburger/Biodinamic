@@ -365,8 +365,7 @@ footer a {
 /* Footer links */
 
 #footer .links {
-	
-	height: 285px;
+
 	background: #444;
 	padding: 30px;
 	margin-bottom: -9px;
@@ -389,7 +388,7 @@ footer a {
 	border-right: 1px solid #222324;
 	border-left: 1px solid #5a5d5f;
 	width: 33%;
-	height: 225px;
+	min-height: 225px;
 	float: left;
 
 }
@@ -425,7 +424,8 @@ footer a {
 	float: left;
 	width: 16px;
 	height: 16px;
-	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 2px;
 	background: url(../img/whatsapp_16.png) right no-repeat;
 }
 
@@ -646,7 +646,7 @@ footer a {
 	float: left;
 	width: 24px;
 	height: 24px;
-	margin-left: 10px;
+	margin-right: 10px;
 	background: url(../img/whatsapp.ico) right no-repeat;
 }
 

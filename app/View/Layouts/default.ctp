@@ -138,10 +138,14 @@
 								
 								<div class="contact">
 									<label class="telephone">Telefone: </label>
-									<div class="telephone">(51) 8421-6590 (Claro)</div><div class="whats"></div><br/>
-									<div class="telephone">(51) 8129-5373 (Tim)</div><div class="whats"></div><br>
+									<div class="whats"></div><div class="telephone">(51) 8421-6590 (Claro)</div><br/>
+									<div class="whats"></div><div class="telephone">(51) 8129-5373 (Tim)</div><br>
 									<div class="email">Email: <a href="mailto:contato@biodinamic.com.br">contato@biodinamic.com.br</a></div>
+								
+								<div class="clear"></div>
 								</div>
+								
+								<div class="clear"></div>
 								
 							</div>
 							
