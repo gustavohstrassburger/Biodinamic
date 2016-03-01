@@ -382,6 +382,12 @@ footer a {
 
 }
 
+#footer .links .row {
+
+  	display: flex; /* equal height of the children */
+
+}
+
 #footer .links .col-md-4 {
 	
 	padding: 2% 3%;
@@ -390,6 +396,7 @@ footer a {
 	width: 33%;
 	min-height: 225px;
 	float: left;
+  	display: table-cell;
 
 }
 
