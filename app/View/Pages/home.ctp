@@ -28,10 +28,11 @@
 				</li>		
 				<li class="last">
 					<div class="block">
-						<strong>Estética</strong>
-						<p>Tratamentos na área de estética corporal e facial. Alguns serviços: Drenagem linfática manual, limpeza de pele, peelings, pré e pós operatório de cirurgia plástica, endermologia, ultrassom, eletrolipólise, esfoliação corporal.</p>
+						<strong>Massoterapia</strong>
+						<p>Os maus hábitos de vida aliados ao estresse do dia a dia tornam o corpo mais suscetível à doença por diminuírem as resistências imunitárias do nosso organismo.</p>
+						<p>As diferentes técnicas proporcionam melhora na circulação sanguínea e linfática, momentos de relaxamento e bem-estar promovendo o equilíbrio do indivíduo em todas as suas dimensões, físico e mental.</p>
 						<div class="saiba_mais">
-							<?php echo $this->Html->Link("Saiba mais »", array("controller"=>"servicos", "action"=>"estetica")); ?>
+							<?php echo $this->Html->Link("Saiba mais »", array("controller"=>"servicos", "action"=>"massoterapia")); ?>
 						</div>
 					</div>
 				</li>
@@ -74,11 +75,10 @@
 				</li>
 				<li class="last">
 					<div class="block">
-						<strong>Massoterapia</strong>
-						<p>Os maus hábitos de vida aliados ao estresse do dia a dia tornam o corpo mais suscetível à doença por diminuírem as resistências imunitárias do nosso organismo.</p>
-						<p>As diferentes técnicas proporcionam melhora na circulação sanguínea e linfática, momentos de relaxamento e bem-estar promovendo o equilíbrio do indivíduo em todas as suas dimensões, físico e mental.</p>
+						<strong>Estética</strong>
+						<p>Tratamentos na área de estética corporal e facial. Alguns serviços: Drenagem linfática manual, limpeza de pele, peelings, pré e pós operatório de cirurgia plástica, endermologia, ultrassom, eletrolipólise, esfoliação corporal.</p>
 						<div class="saiba_mais">
-							<?php echo $this->Html->Link("Saiba mais »", array("controller"=>"servicos", "action"=>"massoterapia")); ?>
+							<?php echo $this->Html->Link("Saiba mais »", array("controller"=>"servicos", "action"=>"estetica")); ?>
 						</div>
 					</div>
 				</li>
